@@ -1,9 +1,9 @@
 [Desktop Entry]
 Type=Application
 X-Nemo-Application-Type=silica-qt5
-Icon=sailmopi
-Exec=sailmopi
-Name=sailmopi
+Icon=harbour-sailmopi
+Exec=sailfish-qml harbour-sailmopi
+Name=harbour-sailmopi
 # translation example:
 # your app name in German locale (de)
 #

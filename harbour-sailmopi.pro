@@ -10,11 +10,11 @@
 #   - translation filenames have to be changed
 
 # The name of your application
-TARGET = sailmopi
+TARGET = harbour-sailmopi
 
-CONFIG += sailfishapp
+CONFIG += sailfishapp_qml
 
-SOURCES += src/sailmopi.cpp
+SOURCES +=
 
 OTHER_FILES += qml/sailmopi.qml \
     qml/cover/CoverPage.qml \
@@ -24,7 +24,7 @@ OTHER_FILES += qml/sailmopi.qml \
     rpm/sailmopi.spec \
     rpm/sailmopi.yaml \
     translations/*.ts \
-    sailmopi.desktop
+    harbour-sailmopi.desktop
 
 SAILFISHAPP_ICONS = 86x86 108x108 128x128 256x256
 

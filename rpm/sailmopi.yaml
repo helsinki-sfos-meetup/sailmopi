@@ -1,4 +1,4 @@
-Name: sailmopi
+Name: harbour-sailmopi
 Summary: My SailfishOS Application
 Version: 0.1
 Release: 1
@@ -33,10 +33,10 @@ PkgConfigBR:
 # Runtime dependencies which are not automatically detected
 Requires:
   - sailfishsilica-qt5 >= 0.10.9 
-
+  - pyotherside-qml-plugin-python3-qt5 >= 1.3.0
 # All installed files
 Files:
-  - '%{_bindir}'
+#  - '%{_bindir}'
   - '%{_datadir}/%{name}'
   - '%{_datadir}/applications/%{name}.desktop'
   - '%{_datadir}/icons/hicolor/*/apps/%{name}.png'
