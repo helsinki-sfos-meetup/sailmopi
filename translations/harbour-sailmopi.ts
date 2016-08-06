@@ -12,17 +12,12 @@
 <context>
     <name>FirstPage</name>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="45"/>
-        <source>Show Page 2</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/FirstPage.qml" line="61"/>
+        <location filename="../qml/pages/FirstPage.qml" line="54"/>
         <source>UI Template</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="65"/>
+        <location filename="../qml/pages/FirstPage.qml" line="67"/>
         <source>Hello Sailors</source>
         <translation type="unfinished"></translation>
     </message>

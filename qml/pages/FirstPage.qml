@@ -40,13 +40,6 @@ Page {
         anchors.fill: parent
 
         // PullDownMenu and PushUpMenu must be declared in SilicaFlickable, SilicaListView or SilicaGridView
-        PullDownMenu {
-            MenuItem {
-                text: qsTr("Show Page 2")
-                onClicked: pageStack.push(Qt.resolvedUrl("SecondPage.qml"))
-            }
-        }
-
         // Tell SilicaFlickable the height of its content.
         contentHeight: column.height
 
@@ -60,6 +53,15 @@ Page {
             PageHeader {
                 title: qsTr("UI Template")
             }
+            Python {
+                id: py
+                Component.onCompleted: {
+                    addImportPath(Qt.resolvedUrl("."))
+                    importModule("sailmopi", function() {
+                    })
+                }
+            }
+
             Label {
                 x: Theme.paddingLarge
                 text: qsTr("Hello Sailors")

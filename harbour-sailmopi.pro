@@ -8,7 +8,7 @@
 #   - desktop filename must be changed
 #   - icon definition filename in desktop file must be changed
 #   - translation filenames have to be changed
-
+TEMPLATE = app
 # The name of your application
 TARGET = harbour-sailmopi
 
@@ -16,13 +16,14 @@ CONFIG += sailfishapp_qml
 
 SOURCES +=
 
-OTHER_FILES += qml/sailmopi.qml \
+OTHER_FILES += \
     qml/cover/CoverPage.qml \
     qml/pages/FirstPage.qml \
     qml/pages/SecondPage.qml \
+    qml/harbour-sailmopi.qml \
     rpm/sailmopi.changes.in \
-    rpm/sailmopi.spec \
-    rpm/sailmopi.yaml \
+    rpm/harbour-sailmopi.spec \
+#    rpm/sailmopi.yaml \
     translations/*.ts \
     harbour-sailmopi.desktop
 
@@ -37,4 +38,7 @@ CONFIG += sailfishapp_i18n
 # following TRANSLATIONS line. And also do not forget to
 # modify the localized app name in the the .desktop file.
 TRANSLATIONS += translations/sailmopi-de.ts
+
+DISTFILES += \
+    qml/harbour-sailmopi.qml
 

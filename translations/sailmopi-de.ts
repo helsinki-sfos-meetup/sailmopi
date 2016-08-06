@@ -11,10 +11,6 @@
 <context>
     <name>FirstPage</name>
     <message>
-        <source>Show Page 2</source>
-        <translation>Zur Seite 2</translation>
-    </message>
-    <message>
         <source>UI Template</source>
         <translation>UI-Vorlage</translation>
     </message>
